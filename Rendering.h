@@ -1,3 +1,9 @@
+//
+//  Rendering.h
+//
+//  Created by Rev on 2/03/2022.
+//
+
 #include "../ImGui/imgui_internal.h"
 
 namespace Rendering {
