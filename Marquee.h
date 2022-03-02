@@ -23,7 +23,7 @@ void Render() //Don't forget to call this somewhere! Such as, where you're calli
 
         auto isFrames = ImGui::GetFrameCount();
 
-        if(isFrames % 30 == 0) //We divide the current frames by 30, and if the remainder equals 0, then we continue. Our text gets called every 30 frames.
+        if(isFrames % 30 == 0) //We use modulus to check if it's divisible by 30, and if the remainder equals 0, then we continue. Our text gets called every 30 frames.
         {
 
             if(isAutoSlider > 1) //1 = The max screen width.
