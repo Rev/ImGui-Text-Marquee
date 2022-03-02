@@ -1,3 +1,9 @@
+//
+//  Marquee.h
+//
+//  Created by Rev on 2/03/2022.
+//
+
 #include "Rendering.h"
 
 void Render() //Don't forget to call this somewhere! Such as, where you're calling the menu.
