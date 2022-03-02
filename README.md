@@ -1,5 +1,6 @@
 # ImGui-Marquee-Text
 An easy way to make a text marquee using ImGui.
+I got the inspiration to make this from seeing Ruit's old menus, which had this style of marquee.
 
 I used ImGui::GetFrameCount() to check the amount of frames the ImGui menu has rendered. Every 30 frames it will move the text automatically, in-turn creating a "marquee". I personally think it makes your mobile mod menus look quite good :)
 
